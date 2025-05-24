@@ -24,6 +24,6 @@ RoxygenNote: 7.3.2
 Suggests: knitr, rmarkdown
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2025-05-24 20:22:50 UTC; gjalt
+Packaged: 2025-05-24 21:04:24 UTC; gjalt
 Author: Gjalt-Jorn Peters [aut, cre] (<https://orcid.org/0000-0002-0336-9589>)
 Maintainer: Gjalt-Jorn Peters <squids@opens.science>

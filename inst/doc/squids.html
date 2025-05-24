@@ -401,21 +401,21 @@ sequence you passed in <code>follow</code>.</p>
 <span id="cb1-2"><a href="#cb1-2" tabindex="-1"></a>  squids<span class="sc">::</span><span class="fu">squids</span>(<span class="dv">5</span>);</span></code></pre></div>
 <p>Let’s look at what we got:</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" tabindex="-1"></a>exampleSQUIDs;</span></code></pre></div>
-<pre><code>🦑 7zrx1q3r, 7zrx1q3s, 7zrx1q3t, 7zrx1q3w &amp; 7zrx1q3x</code></pre>
+<pre><code>🦑 7zrxbz6m, 7zrxbz6n, 7zrxbz6p, 7zrxbz6q &amp; 7zrxbz6r</code></pre>
 <p>To then follow this sequence, we can specify them when creating new
 SQUIDs:</p>
 <div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" tabindex="-1"></a>squids<span class="sc">::</span><span class="fu">squids</span>(</span>
 <span id="cb4-2"><a href="#cb4-2" tabindex="-1"></a>  <span class="dv">5</span>,</span>
 <span id="cb4-3"><a href="#cb4-3" tabindex="-1"></a>  <span class="at">follow =</span> exampleSQUIDs</span>
 <span id="cb4-4"><a href="#cb4-4" tabindex="-1"></a>);</span></code></pre></div>
-<pre><code>🦑 7zrx1q3y, 7zrx1q3z, 7zrx1q40, 7zrx1q41 &amp; 7zrx1q42</code></pre>
+<pre><code>🦑 7zrxbz6s, 7zrxbz6t, 7zrxbz6w, 7zrxbz6x &amp; 7zrxbz6y</code></pre>
 <p>And we can use <code>followBy</code> to specify we want a gap:</p>
 <div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" tabindex="-1"></a>squids<span class="sc">::</span><span class="fu">squids</span>(</span>
 <span id="cb6-2"><a href="#cb6-2" tabindex="-1"></a>  <span class="dv">5</span>,</span>
 <span id="cb6-3"><a href="#cb6-3" tabindex="-1"></a>  <span class="at">follow =</span> exampleSQUIDs,</span>
 <span id="cb6-4"><a href="#cb6-4" tabindex="-1"></a>  <span class="at">followBy =</span> <span class="dv">30</span></span>
 <span id="cb6-5"><a href="#cb6-5" tabindex="-1"></a>);</span></code></pre></div>
-<pre><code>🦑 7zrx1q4y, 7zrx1q4z, 7zrx1q50, 7zrx1q51 &amp; 7zrx1q52</code></pre>
+<pre><code>🦑 7zrxbz7s, 7zrxbz7t, 7zrxbz7w, 7zrxbz7x &amp; 7zrxbz7y</code></pre>
 </div>
 </div>
 <div id="the-squid-digits" class="section level2">
